@@ -1,0 +1,14 @@
+<view class="contact">
+  <view class='email'>
+    <image src="../../assets/icons/email.svg"></image>
+    {{email}}
+  </view>
+  <view class='wechat'>
+    <image src="../../assets/icons/wechat.svg"></image>
+    {{wechat}}
+    </view>
+  <view class='github'>
+    <image src="../../assets/icons/github.svg"></image>
+    {{github}}
+    </view>
+</view>

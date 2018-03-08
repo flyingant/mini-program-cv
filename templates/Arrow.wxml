@@ -1,0 +1,5 @@
+<template name="Arrow">
+  <view class='arrow_down' bindtap="onScollLower">
+    <image src='../../assets/icons/arrow_down.svg'></image>
+  </view>
+</template>

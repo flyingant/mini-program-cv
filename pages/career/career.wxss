@@ -1,0 +1,20 @@
+page{
+  background-color: #252525;
+  color: white;
+}
+
+.career {
+  width: 90%;
+  margin-bottom: 40rpx;
+  padding: 20rpx;
+  background-color: #313131;
+}
+
+.career label {
+  font-size: 16px;
+}
+
+.career .texts {
+  font-size: 12px;
+  margin-top: 36rpx;
+}

@@ -1,0 +1,16 @@
+<view class='title'>
+  <text>{{title}}</text>
+</view>
+<view class="profile">
+  <text class='name'>{{name}}</text>
+  <view class='line'></view>
+  <text class='role'>{{role}}</text>
+</view>
+
+<view class='introduction'>
+  <rich-text class='content'>{{introduction}}</rich-text>
+</view>
+
+<view class='arrow_down' bindtap="onScollLower">
+  <image src='../../assets/icons/arrow_down.svg'></image>
+</view>

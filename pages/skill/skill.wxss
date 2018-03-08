@@ -1,0 +1,20 @@
+page{
+  background-color: #252525;
+  color: white;
+}
+
+.skill {
+  width: 90%;
+  margin-bottom: 40rpx;
+  padding: 20rpx;
+  background-color: #313131;
+}
+
+.skill label {
+  font-size: 16px;
+}
+
+.skill .texts {
+  font-size: 12px;
+  margin-top: 36rpx;
+}

@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/profile/profile",
+    "pages/career/career",
+    "pages/education/education",
+    "pages/project/project",
+    "pages/skill/skill",
+    "pages/contact/contact"
+  ],
+  "window":{
+    "backgroundColor": "#252525",
+    "backgroundTextStyle":"#FFFFFF",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "CV",
+    "navigationBarTextStyle":"white",
+    "navigationStyle": "default",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": "50"
+  }
+}

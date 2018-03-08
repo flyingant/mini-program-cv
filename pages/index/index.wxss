@@ -1,0 +1,50 @@
+/**index.wxss**/
+page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #252525;
+  text-transform: uppercase;
+  color: white;
+}
+
+.avatar_container {
+  position: relative;
+  margin-top: 256rpx;
+}
+
+.avatar_container .avatar{
+  width: 308rpx;
+  height: 308rpx;
+  border-radius: 50%;
+  border: 2px solid #ccc
+}
+
+.avatar_container .baby{
+  position: absolute;
+  top: -32rpx;
+  right: -96rpx;
+  width: 144rpx;
+  height: 144rpx;
+  border: none;
+}
+
+.avatar_container .baby image{
+  width: 144rpx;
+  height: 144rpx;
+}
+
+.baby_modal {
+  position: absolute;
+  top: 50%;
+  margin-top: -240px;
+  left: 50%;
+  margin-left: -150px;
+  border: 2px solid #ccc;
+}
+
+.baby_modal image{
+  width: 300px;
+  height: 420px;
+}
+

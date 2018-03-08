@@ -1,0 +1,5 @@
+<import src="../../templates/Panel.wxml" />
+<import src="../../templates/Arrow.wxml" />
+
+<template is="Panel" data="{{...career}}"/>
+<template is="Arrow"/>

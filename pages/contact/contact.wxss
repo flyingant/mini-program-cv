@@ -1,0 +1,25 @@
+/**index.wxss**/
+page{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252525;
+  color: white;
+}
+
+.contact {
+  font-size: 12px;
+}
+
+.email, .wechat, .github {
+  height: 60px;
+  line-height: 60px;
+}
+
+.contact image{
+  width: 32px;
+  height: 32px;
+  margin-right: 20rpx;
+  vertical-align: middle;
+}

@@ -1,0 +1,14 @@
+<view class="avatar_container">
+  <image class="avatar" src='{{avatar}}'></image>
+  <view class="baby" bindtap="onToggleBabyModal">
+    <image src='../../assets/icons/baby.png'></image>
+  </view>
+</view>
+
+<view wx:if="{{showBabyModal}}" class='baby_modal' bindtap="onToggleBabyModal">
+  <image mode='scaleToFill' src="{{baby_photo_url}}"></image>
+</view>
+
+<view class='arrow_down' bindtap="onScollLower">
+  <image src='../../assets/icons/arrow_down.svg'></image>
+</view>

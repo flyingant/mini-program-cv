@@ -1,0 +1,15 @@
+<template name="Panel">
+  <view class='panel'>
+    <view class="title">
+      <text>{{title}}</text>
+    </view>
+    <view class='content'>
+      <view class='{{name}}' wx:for="{{contents}}" wx:key="key" wx:for-item="item">
+        <label>{{item.title}}</label>
+        <view class='texts'>
+          <rich-text>{{item.description}}</rich-text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

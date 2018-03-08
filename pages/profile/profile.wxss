@@ -1,0 +1,55 @@
+/**index.wxss**/
+page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #252525;
+  color: white;
+}
+
+.title {
+  margin: 64rpx 0;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  height: 256rpx;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  background-color: #313131;
+}
+
+.profile .name{
+  width: 100%;
+  text-align: center;
+}
+
+.profile .line {
+  width: 40%;
+  height: 1px;
+  margin: 10px 0;
+  background-color: white;
+}
+
+.profile .role {
+  width: 100%;
+  text-align: center;
+}
+
+.introduction {
+  width: 90%;
+  margin-top: 32rpx;
+  padding: 20rpx;
+  background-color: #313131;
+}
+
+.introduction .content {
+  font-size: 14px;
+  text-indent: 2em;
+  word-break: break-all;
+}
